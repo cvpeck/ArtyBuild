@@ -1,4 +1,3 @@
-platform create -name {artytest_vitis} -hw {/home/peckc/artytest/artytest.vitis/design_1_wrapper.xsa} -proc {microblaze_0} -os {linux} -out {/home/peckc/artytest};platform write
-platform read {/home/peckc/artytest/artytest_vitis/platform.spr}
-platform active {artytest_vitis}
+source /home/peckc/Documents/create_ArtyA7100TProject/create_ArtyA7100Tproject_microblaze_vitis_include.tcl                                                      
+generate_workspace -hw /home/peckc/Documents/design_1_wrapper.xsa -proc microblaze_0 -workspace /home/peckc/artytest/artytest.vitis3 -domain app_domain -template "Empty Application"
 

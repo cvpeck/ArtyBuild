@@ -18,4 +18,4 @@ cmd="vivado -mode tcl -source ${0%.*}.tcl &"
 echo "Executing $cmd"
 $cmd
 
-
+xsct create_ArtyA7100Tproject_microblaze_vitis.tcl
