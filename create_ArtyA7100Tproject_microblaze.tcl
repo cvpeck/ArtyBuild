@@ -125,7 +125,7 @@ wait_on_run impl_1
 write_hw_platform -fixed -force -file $project_name/$project_name.runs/impl_1/design_1_wrapper.xsa
 #file mkdir $project_dir/$project_name.sdk
 #file copy -force $project_dir/$project_name.runs/impl_1/design_1_wrapper.sysdef $project_dir/$project_name.sdk/design_1_wrapper.hdf
-save_project_as $project_dir/$project_name
+#save_project_as $project_dir/$project_name
 file mkdir $project_dir/$project_name.vitis
 file copy -force $project_dir/$project_name.runs/impl_1/design_1_wrapper.xsa $project_dir/$project_name.vitis/design_1_wrapper.xsa
 
